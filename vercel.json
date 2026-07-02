@@ -4,6 +4,7 @@
   "outputDirectory": ".",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "http://114.55.178.206:3000/api/$1" },
+    { "source": "/admin", "destination": "/admin.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
